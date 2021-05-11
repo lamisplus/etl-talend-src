@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_sdIg4J7LEeuApdILOMFaMQ" name="LAMISPlus" id="_fCPpEJ7LEeuApdILOMFaMQ" label="LAMISPlus" dataPackage="_sdyoMJ7LEeuApdILOMFaMQ" ContextMode="true" ContextId="_r5GmwJ7LEeuApdILOMFaMQ" contextName="Default" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://:5432/lamisplus_etl2?" dbVersionString="V9_X" Port="context.LAMISPlus_Port" Username="context.LAMISPlus_Login" Password="context.LAMISPlus_Password" ServerName="context.LAMISPlus_Server" DatasourceName="" FileFieldName="" SID="context.LAMISPlus_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="context.LAMISPlus_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.LAMISPlus_Schema">
+    <taggedValue xmi:id="_sdIg4Z7LEeuApdILOMFaMQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_sdUuIJ7LEeuApdILOMFaMQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_sdVVMJ7LEeuApdILOMFaMQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_sdVVMZ7LEeuApdILOMFaMQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_sdVVMp7LEeuApdILOMFaMQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_sdVVM57LEeuApdILOMFaMQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_sdVVNJ7LEeuApdILOMFaMQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_sdVVNZ7LEeuApdILOMFaMQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_sdjXoJ7LEeuApdILOMFaMQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_sdjXoZ7LEeuApdILOMFaMQ" tag="DB ProductVersion" value="12.1"/>
+    <taggedValue xmi:id="_sdjXop7LEeuApdILOMFaMQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_sdIg4p7LEeuApdILOMFaMQ" key="CONN_PARA_KEY_USERNAME" value="context.LAMISPlus_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_sdyoMJ7LEeuApdILOMFaMQ" name="lamisplus_etl2" dataManager="_sdIg4J7LEeuApdILOMFaMQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_sdyoMZ7LEeuApdILOMFaMQ" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_sdyoMp7LEeuApdILOMFaMQ" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_sdyoM57LEeuApdILOMFaMQ" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

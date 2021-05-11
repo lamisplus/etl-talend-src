@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_hbq0AI2zEeuAtZfulUJ9zQ" comment="connectionComment" label="connectionLabel" dataPackage="_hbq0AY2zEeuAtZfulUJ9zQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_hbq0AY2zEeuAtZfulUJ9zQ" dataManager="_hbq0AI2zEeuAtZfulUJ9zQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hbq0Ao2zEeuAtZfulUJ9zQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0A42zEeuAtZfulUJ9zQ" name="last_name" id="58337" label="last_name" length="255" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0BI2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0BY2zEeuAtZfulUJ9zQ" name="first_name" id="58338" label="first_name" length="255" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0Bo2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0B42zEeuAtZfulUJ9zQ" name="dob" id="58339" label="dob" length="12" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_hbq0CI2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0CY2zEeuAtZfulUJ9zQ" name="archived" id="58340" label="archived" length="-1" precision="-1" sourceType="INT4" talendType="id_Integer">
+        <initialValue xmi:id="_hbq0Co2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0C42zEeuAtZfulUJ9zQ" name="marital_status_id" id="58341" label="marital_status_id" length="3" sourceType="INT4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0DI2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0DY2zEeuAtZfulUJ9zQ" name="gender_id" id="58342" label="gender_id" length="3" sourceType="INT4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0Do2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0D42zEeuAtZfulUJ9zQ" name="occupation_id" id="58343" label="occupation_id" length="3" sourceType="INT4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0EI2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0EY2zEeuAtZfulUJ9zQ" name="education_id" id="58344" label="education_id" length="3" sourceType="INT4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0Eo2zEeuAtZfulUJ9zQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hbq0E42zEeuAtZfulUJ9zQ" name="uuid" id="70269" label="uuid" length="38" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_hbq0FI2zEeuAtZfulUJ9zQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_w7IdMJcrEeux3qkDOAEmpQ" name="LAMIS3_Laboratory" dataPackage="_w7IdMZcrEeux3qkDOAEmpQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Deborah Obanisola/Desktop/LAMIS3_LAB.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_w7IdMZcrEeux3qkDOAEmpQ" name="default" dataManager="_w7IdMJcrEeux3qkDOAEmpQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_w7JEQJcrEeux3qkDOAEmpQ" id="_QWBzQJcrEeux3qkDOAEmpQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JEQZcrEeux3qkDOAEmpQ" label="_LABORATORY_ID_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JEQpcrEeux3qkDOAEmpQ" label="_FACILITY_ID_" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JEQ5crEeux3qkDOAEmpQ" label="_PATIENT_ID_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JERJcrEeux3qkDOAEmpQ" label="_DATE_REPORTED_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JERZcrEeux3qkDOAEmpQ" label="_DATE_COLLECTED_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JERpcrEeux3qkDOAEmpQ" label="_LABNO_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JER5crEeux3qkDOAEmpQ" label="_RESULTAB_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JESJcrEeux3qkDOAEmpQ" label="_RESULTPC_" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JESZcrEeux3qkDOAEmpQ" label="_COMMENT_" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JESpcrEeux3qkDOAEmpQ" label="_DESCRIPTION_" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w7JES5crEeux3qkDOAEmpQ" label="_PATIENT_UUID_" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

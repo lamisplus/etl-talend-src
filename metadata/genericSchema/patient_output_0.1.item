@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_g39fgJ4FEeux3qkDOAEmpQ" comment="connectionComment" label="connectionLabel" dataPackage="_g39fgZ4FEeux3qkDOAEmpQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_g39fgZ4FEeux3qkDOAEmpQ" dataManager="_g39fgJ4FEeux3qkDOAEmpQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_g39fgp4FEeux3qkDOAEmpQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fg54FEeux3qkDOAEmpQ" name="id" id="34062" label="id" length="10" sourceType="SERIAL" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_g39fhJ4FEeux3qkDOAEmpQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fhZ4FEeux3qkDOAEmpQ" name="facility_id" id="34063" label="facility_id" length="19" sourceType="INT8" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_g39fhp4FEeux3qkDOAEmpQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fh54FEeux3qkDOAEmpQ" name="hospital_num" id="34064" label="hospital_num" length="35" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fiJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fiZ4FEeux3qkDOAEmpQ" name="surname" id="34065" label="surname" length="64" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fip4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fi54FEeux3qkDOAEmpQ" name="other_names" id="34066" label="other_names" length="75" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fjJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fjZ4FEeux3qkDOAEmpQ" name="gender" id="34067" label="gender" length="16" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fjp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fj54FEeux3qkDOAEmpQ" name="date_birth" id="34068" label="date_birth" length="13" sourceType="DATE" talendType="id_Date" nullable="false" pattern="yyyy-MM-dd">
+        <initialValue xmi:id="_g39fkJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fkZ4FEeux3qkDOAEmpQ" name="marital_status" id="34069" label="marital_status" length="35" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fkp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fk54FEeux3qkDOAEmpQ" name="education" id="34070" label="education" length="64" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39flJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39flZ4FEeux3qkDOAEmpQ" name="occupation" id="34071" label="occupation" length="64" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39flp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fl54FEeux3qkDOAEmpQ" name="address" id="34072" label="address" length="300" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fmJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fmZ4FEeux3qkDOAEmpQ" name="phone" id="34073" label="phone" length="35" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fmp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fm54FEeux3qkDOAEmpQ" name="next_of_kin" id="34074" label="next_of_kin" length="75" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fnJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fnZ4FEeux3qkDOAEmpQ" name="next_of_kin_address" id="34075" label="next_of_kin_address" length="300" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fnp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fn54FEeux3qkDOAEmpQ" name="next_of_kin_phone" id="34076" label="next_of_kin_phone" length="35" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39foJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39foZ4FEeux3qkDOAEmpQ" name="next_of_kin_relationship" id="34077" label="next_of_kin_relationship" length="64" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fop4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fo54FEeux3qkDOAEmpQ" name="date_registration" id="34078" label="date_registration" length="13" sourceType="DATE" talendType="id_Date" nullable="false" pattern="yyyy-MM-dd">
+        <initialValue xmi:id="_g39fpJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fpZ4FEeux3qkDOAEmpQ" name="uuid" id="34079" label="uuid" length="36" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_g39fpp4FEeux3qkDOAEmpQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fp54FEeux3qkDOAEmpQ" name="archived" id="34080" label="archived" length="1" sourceType="BOOL" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_g39fqJ4FEeux3qkDOAEmpQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fqZ4FEeux3qkDOAEmpQ" name="dob_estimated" id="34081" label="dob_estimated" length="1" sourceType="BOOL" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_g39fqp4FEeux3qkDOAEmpQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_g39fq54FEeux3qkDOAEmpQ" name="last_modified" id="34082" label="last_modified" length="29" precision="6" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="yyyy-MM-dd">
+        <initialValue xmi:id="_g39frJ4FEeux3qkDOAEmpQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_1aTFgJ3hEeux3qkDOAEmpQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_1aTFgZ3hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Password" prompt="LAMIS3_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:6wOwzqvvabhpwhHMS6AuY47N2Fi3lC+zoxfZFNehXTbnQ7SW"/>
+  <contextParameter xmi:id="_1aTFgp3hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Server" prompt="LAMIS3_Server?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1aTFg53hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Login" prompt="LAMIS3_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_1aTFhJ3hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Port" prompt="LAMIS3_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_1aTFhZ3hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Database" prompt="LAMIS3_Database?" promptNeeded="false" type="id_String" value="lamis3"/>
+  <contextParameter xmi:id="_1aTFhp3hEeux3qkDOAEmpQ" comment="" name="LAMIS3_AdditionalParams" prompt="LAMIS3_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_1aTFh53hEeux3qkDOAEmpQ" comment="" name="LAMIS3_Schema" prompt="LAMIS3_Schema?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
