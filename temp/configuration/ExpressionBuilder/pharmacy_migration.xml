@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_5=>" expression="row12.composition.replace(&quot;Lamivudine+Nevirapine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Zidovudine+Lamivudine+Nevarapin&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Emtricitabine+Tenofovir&quot;, &quot;Tenofovir+Emtricitabine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Emtricitabine+Lopinavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Nevirapine&quot;, &quot;Tenofovir+Emtricitabine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Stavudine&quot;, &quot;Stavudine+Lamivudine+Efavirenz&quot;)">
+  <variables name="row12.id" value="0" talendType="id_Long"/>
+  <variables name="row12.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row12.facilityid" value="0" talendType="id_Long"/>
+  <variables name="row12.drug_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.composition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.date_dispensed" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row12.start_date" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row12.encounter_id" value="0" talendType="id_Integer"/>
+  <variables name="row12.adr" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.adr_screened" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row12.adherence" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row12.prescription_error" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row12.morning" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.duration" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.afternoon" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.lamis3_regimen_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.strength" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row13.id" value="0" talendType="id_Long"/>
+  <variables name="row13.regimenname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row13.composition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row13.regimen_line_id" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row13.to_json" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

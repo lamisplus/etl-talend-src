@@ -1,1 +1,1 @@
-id,patient_id,facility_id,lines,reason
+id,patient_id,facilityid,drug_name,description,composition,date_dispensed,start_date,encounter_id,adr,adr_screened,adherence,prescription_error,morning,duration,afternoon,lamis3_regimen_id,strength

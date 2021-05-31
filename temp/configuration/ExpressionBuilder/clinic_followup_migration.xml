@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_3=>" expression="row6.regimen.replace(&quot;Lamivudine+Nevirapine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Zidovudine+Lamivudine+Nevarapin&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Emtricitabine+Tenofovir&quot;, &quot;Tenofovir+Emtricitabine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Emtricitabine+Lopinavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Nevirapine&quot;, &quot;Tenofovir+Emtricitabine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Stavudine&quot;, &quot;Stavudine+Lamivudine+Efavirenz&quot;) &#xA;.replace(&quot;Efavirenz+Lamivudine+Tenofovir&quot;, &quot;Tenofovir+Lamivudine+Efavirenz&quot;)">
+  <variables name="row6.id" value="0" talendType="id_Long"/>
+  <variables name="row6.uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.date_visit" value="null" talendType="id_Date"/>
+  <variables name="row6.clinic_stage" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.func_status" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.tb_status" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.viral_load" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.cd4" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.cd4p" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.body_weight" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.height" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.waist" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.bp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.lmp" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.oi_screened" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.adr_screened" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.adherence_level" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.notes" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.username" value="null" talendType="id_String"/>
+  <variables name="row6.sti_treated" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.gestational_age" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.maternal_status_art" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.sti_ids" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.archived" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.clinic_uuid" value="null" talendType="id_String"/>
+  <variables name="row6.pregnant" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.breastfeeding" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.commence" value="false" talendType="id_Boolean"/>
+  <variables name="row6.regimen" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.regimen_type" value="null" talendType="id_String"/>
+  <variables name="row7.date_encounter" value="null" talendType="id_Date"/>
+  <variables name="row7.uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.id" value="0" talendType="id_Integer"/>
+  <variables name="row7.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row7.facilityid" value="0" talendType="id_Long"/>
+  <variables name="row2.id" value="0" talendType="id_Long"/>
+  <variables name="row2.regimenname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.composition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.regimen_line_id" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row8.tb_application_codeset" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.clinic_application_codeset" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row12.func_application_codeset" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

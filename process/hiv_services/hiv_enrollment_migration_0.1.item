@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="LAMIS3_Password" prompt="LAMIS3_Password?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_Password" value="enc:system.encryption.key.v1:ZLvOKzxMCkAZdWLqFvQnemlJOcb42N6qm9rRCvsUyDxetG59"/>
+    <contextParameter comment="" name="LAMIS3_Password" prompt="LAMIS3_Password?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_Password" value="enc:system.encryption.key.v1:kT5SpkUY+9reF649dD+LNz6Y+PfUBCWz6iBsz11g6egYdlTT"/>
     <contextParameter comment="" name="LAMIS3_Server" prompt="LAMIS3_Server?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMIS3_Login" prompt="LAMIS3_Login?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="postgres"/>
     <contextParameter comment="" name="LAMIS3_Port" prompt="LAMIS3_Port?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="5432"/>
-    <contextParameter comment="" name="LAMIS3_Database" prompt="LAMIS3_Database?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="lamis3"/>
+    <contextParameter comment="" name="LAMIS3_Database" prompt="LAMIS3_Database?" promptNeeded="true" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="lamis3_gh"/>
     <contextParameter comment="" name="LAMIS3_AdditionalParams" prompt="LAMIS3_AdditionalParams?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMIS3_Schema" prompt="LAMIS3_Schema?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_Server" prompt="LAMISPlus_Server?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_Schema" prompt="LAMISPlus_Schema?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_AdditionalParams" prompt="LAMISPlus_AdditionalParams?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_Login" prompt="LAMISPlus_Login?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="postgres"/>
-    <contextParameter comment="" name="LAMISPlus_Password" prompt="LAMISPlus_Password?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_Password" value="enc:system.encryption.key.v1:9wuYEiHz1TxpFiy3hQ+LBR3FCYC28vUJzpXHd7rRmwQI7kfH"/>
-    <contextParameter comment="" name="LAMISPlus_Database" prompt="LAMISPlus_Database?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="lamisplus_etl4"/>
+    <contextParameter comment="" name="LAMISPlus_Password" prompt="LAMISPlus_Password?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_Password" value="enc:system.encryption.key.v1:GyevGkiSxzr1Qb61fYr8tEtGbipBf6QXc+3USzQJ4lXTqSiz"/>
+    <contextParameter comment="" name="LAMISPlus_Database" prompt="LAMISPlus_Database?" promptNeeded="true" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="lamisplus_etl4"/>
     <contextParameter comment="" name="LAMISPlus_Port" prompt="LAMISPlus_Port?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="5432"/>
-    <contextParameter comment="" name="application_codeset" prompt="application_codeset?" promptNeeded="false" type="id_Object" value="{&quot;kpType&quot;:[{&quot;id&quot;:310,&quot;display&quot;:&quot;FSW&quot;,&quot;codeset_group&quot;:&quot;KP_TYPE&quot;,&quot;code&quot;:&quot;fd282b52-319a-4723-be63-e38dc9d1acfe&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:311,&quot;display&quot;:&quot;MSM&quot;,&quot;codeset_group&quot;:&quot;KP_TYPE&quot;,&quot;code&quot;:&quot;4621ef7c-22fd-4605-8af2-494cc4ee97e5&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:312,&quot;display&quot;:&quot;PWID&quot;,&quot;codeset_group&quot;:&quot;KP_TYPE&quot;,&quot;code&quot;:&quot;53714fc5-8960-487a-a236-0173b26be9b8&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:313,&quot;display&quot;:&quot;Trans&quot;,&quot;codeset_group&quot;:&quot;KP_TYPE&quot;,&quot;code&quot;:&quot;6c4d78e7-149f-4c60-bd11-c16edcd8b6f1&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:314,&quot;display&quot;:&quot;Others&quot;,&quot;codeset_group&quot;:&quot;KP_TYPE&quot;,&quot;code&quot;:&quot;b2786a9e-5fc8-4a23-9c6f-c462d568a5e0&quot;,&quot;language&quot;:&quot;en&quot;}],&quot;tbStatus&quot;:[{&quot;id&quot;:67,&quot;display&quot;:&quot;No sign or symptoms of TB&quot;,&quot;codeset_group&quot;:&quot;TB_STATUS&quot;,&quot;code&quot;:&quot;8647c0b5-129a-4a28-a490-939cf66538dd&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:68,&quot;display&quot;:&quot;TB suspected and referred for evaluation&quot;,&quot;codeset_group&quot;:&quot;TB_STATUS&quot;,&quot;code&quot;:&quot;139186bb-f8f7-44fb-8343-bd8e70f74f05&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:69,&quot;display&quot;:&quot;Currently on INH prophylaxis&quot;,&quot;codeset_group&quot;:&quot;TB_STATUS&quot;,&quot;code&quot;:&quot;afbaa50d-6f9c-403b-b1f5-4dee8937d3e3&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:70,&quot;display&quot;:&quot;Currently on TB treatment&quot;,&quot;codeset_group&quot;:&quot;TB_STATUS&quot;,&quot;code&quot;:&quot;9ba7a661-ca2b-45ee-b332-95e96655264e&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:71,&quot;display&quot;:&quot;TB positive not on TB drugs&quot;,&quot;codeset_group&quot;:&quot;TB_STATUS&quot;,&quot;code&quot;:&quot;74509327-3a74-4376-b49f-409e5d506abb&quot;,&quot;language&quot;:&quot;en&quot;}],&quot;pointEntry&quot;:[{&quot;id&quot;:15,&quot;display&quot;:&quot;OPD&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;1b269b6c-9b6c-49c3-be8a-9797b9ea9385&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:16,&quot;display&quot;:&quot;In-patient&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;058ce7fb-2698-4345-8f54-37e015ab6d98&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:17,&quot;display&quot;:&quot;HCT&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;faea8f87-8e28-466d-ad8e-5002bbfd6284&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:18,&quot;display&quot;:&quot;TB DOTS&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;7e0eadd3-ea37-40d7-bd46-acec44f087f8&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:19,&quot;display&quot;:&quot;STI Clinic&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;7a9d09bd-b797-4682-bfc4-a03219de6f6f&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:20,&quot;display&quot;:&quot;PMTCT&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;f8c1b989-b7c5-4342-9da7-515640dfa830&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:21,&quot;display&quot;:&quot;Transfer-in&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;fa253f32-a8b6-4230-97a4-1ab12cd618cd&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:22,&quot;display&quot;:&quot;Outreach&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;4b959d38-49d9-4a23-8ab8-a066c7b475e8&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:23,&quot;display&quot;:&quot;CBO&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;833b95ab-0450-4001-a4a5-302386120675&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:24,&quot;display&quot;:&quot;Others&quot;,&quot;codeset_group&quot;:&quot;POINT_ENTRY&quot;,&quot;code&quot;:&quot;81ce2047-8bdd-439a-b530-8cf9b1717d66&quot;,&quot;language&quot;:&quot;en&quot;}],&quot;sourceReferral&quot;:[{&quot;id&quot;:43,&quot;display&quot;:&quot;Self&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;6ac9dbaa-ac5d-44b6-a1d5-06f40dec166f&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:44,&quot;display&quot;:&quot;TB&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;a7503d13-3f85-4601-aba8-8750d9fe138c&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:45,&quot;display&quot;:&quot;STI&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;98bf443a-db72-4470-a9cd-5da96ec9df60&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:46,&quot;display&quot;:&quot;FP&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;a815ebf3-1b7b-43d5-8cdb-881a9c22d49a&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:47,&quot;display&quot;:&quot;OPD&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;95674508-3e17-4a8b-882f-d060b41645b2&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:48,&quot;display&quot;:&quot;Ward&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;a7f0c8ea-9b43-4823-bd51-c83436bb0d4e&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:49,&quot;display&quot;:&quot;Blood Bank&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;9f9417a5-739a-40e0-9c5c-8cccf8eaa506&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:50,&quot;display&quot;:&quot;Others&quot;,&quot;codeset_group&quot;:&quot;SOURCE_REFERRAL&quot;,&quot;code&quot;:&quot;4f69a1a0-3126-45b4-a003-00710a72a0b3&quot;,&quot;language&quot;:&quot;en&quot;}],&quot;enrollmentSetting&quot;:[{&quot;id&quot;:51,&quot;display&quot;:&quot;Facility&quot;,&quot;codeset_group&quot;:&quot;ENROLLMENT_SETTING&quot;,&quot;code&quot;:&quot;10bd3b23-cf32-482b-9184-3a09bf34ed4f&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:52,&quot;display&quot;:&quot;Community&quot;,&quot;codeset_group&quot;:&quot;ENROLLMENT_SETTING&quot;,&quot;code&quot;:&quot;fbeba6e1-e20e-4299-b17d-5614cb425449&quot;,&quot;language&quot;:&quot;en&quot;}],&quot;hivStatus&quot;:[{&quot;id&quot;:54,&quot;display&quot;:&quot;HIV+ non ART&quot;,&quot;codeset_group&quot;:&quot;HIV_STATUS_ENROL&quot;,&quot;code&quot;:&quot;61907d76-da2a-48df-8eeb-adfceadabd61&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:55,&quot;display&quot;:&quot;ART Transfer In&quot;,&quot;codeset_group&quot;:&quot;HIV_STATUS_ENROL&quot;,&quot;code&quot;:&quot;a04088ea-ce3a-4942-ae26-b3eb009f398c&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:56,&quot;display&quot;:&quot;Pre-ART Transfer In&quot;,&quot;codeset_group&quot;:&quot;HIV_STATUS_ENROL&quot;,&quot;code&quot;:&quot;db1d2322-9409-47cd-9ff1-dad67f7afd78&quot;,&quot;language&quot;:&quot;en&quot;},{&quot;id&quot;:53,&quot;display&quot;:&quot;HIV Exposed Status Unknown&quot;,&quot;codeset_group&quot;:&quot;HIV_STATUS_ENROL&quot;,&quot;code&quot;:&quot;b9909d8e-23bf-4bf4-9a33-7eb933a991a1&quot;,&quot;language&quot;:&quot;en&quot;}]}"/>
     <contextParameter comment="" name="application_codeset_not_present" prompt="application_codeset_not_present?" promptNeeded="false" type="id_List Of Value" value=""/>
   </context>
   <parameters>
@@ -59,7 +58,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wkD7b5yPoXcrLRNE34w8picNRldhst/lbvKc0jTl" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:KWRFCvR5sFVRa0N74NsggoOe1LypUCMOpqHrXzTl" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -94,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Suo5v8viAPb7lJC5RaJbVDnGwgbMZmCl8CG5P0Cz" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FlkjXSbtHNfhoRjY3hb7+4Em45r5NaskWby9vGdg" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -143,13 +142,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+2k9bBxGgZtiqc1fQR5REswZ19iFWDZ+1jriGc8X6AOJTeHSlg4vWCjuQh/1rmoh5WNE"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rIad9R3NnO2FllW1MCtKKhdD1yKTFTqHqnDzxrAQ3hAcwKT9JSRHCL5VEMqsTbG4ztNk"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started, date_last_cd4, pregnant, breastfeeding from patient&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started, pregnant, breastfeeding from patient&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -185,8 +184,6 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date_started"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_last_cd4"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="pregnant"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="breastfeeding"/>
@@ -206,7 +203,6 @@
       <column comment="" key="false" length="75" name="status_at_registration" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="64" name="enrollment_setting" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="date_started" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="date_last_cd4" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="pregnant" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="breastfeeding" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -224,7 +220,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SRn6ByUxZK7tPUkCPbFT9sFVrqKn6qvvZRt+DYiBDBWirq4Qlh5AI+Cy9jLK0dbtv2xBy7+y"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SvNHekJhsS9BVamXqgiVLeX0419q7dQMlMgQ5Vm45pv/fL34v7cAPYQeNoOP5cW3N7ylUQkE"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;person&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -314,7 +310,6 @@
         <mapperTableEntries name="status_at_registration" type="id_String" nullable="true"/>
         <mapperTableEntries name="enrollment_setting" type="id_String" nullable="true"/>
         <mapperTableEntries name="date_started" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="date_last_cd4" type="id_Date" nullable="true"/>
         <mapperTableEntries name="pregnant" type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="breastfeeding" type="id_Boolean" nullable="true"/>
       </inputTables>
@@ -340,7 +335,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N0524pK/5/PDl5pfoIdvCsrcKIzcNQvWVxo1DRGM8Bp/OX12H8kxRXvb7a/TocWdVNkn0I/2"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IJ5seFK7SepnT6XIfMb/LqyRPCb49YhSkEg79pSJX6mDAtU1NdNXpadPLwQNe+wHC4hhDrLq"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;visit&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -449,7 +444,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rLBBxPzVtNxF0oJBADAfQ65QgBXUnVuYMB48oVwX0uTJLKleiA67Off0i0uaMTMvuxdn"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wujDLgvkaJrrQiKcg5QJJq0QN0nLTUVKiNxEDk32g6SobfGmAAre2A6gn0hnUTQwF/ZW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -503,7 +498,7 @@
       <column comment="" defaultValue="" key="false" length="1" name="archived" nullable="false" pattern="" precision="0" sourceType="BOOL" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="visit_id" expression="row5.id " type="id_Long"/>
@@ -543,7 +538,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:i97IftGM18nQ4XGHZZpPAYA7GsqxpPzUIbH+zT+WhaAaa+ebfuYMFVChHpAtk1Y9t2J7xmH8"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z4mAyAS46MhiHzBzHfPSMqxaT6Me1P8PhkWDTtC4lkbs3nqUQOOo3UvsZox+fKWQf8xPNS1H"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -600,7 +595,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0LmZ6c83XCnT+ClmFxrJD7O/DdmQ8nKhn0avFZd466lC2mywAFpAPe9//DpkdmsU3hO95oAn"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wuVHWp0DD6QnvqoJUGD7V3Mi5XpyR9ramoGJVLM03C/auId4hQjKmPqJd+6WECxjVo68yDCQ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;encounter&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -718,13 +713,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ABCD82Gq0kgPWRWuNo6M5IiErUP7spGGLkmiV58eqRizJ0h519YiT3HzDuydPwFwRzbX"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u3YH5M5g55Am9vcGpMK6JHvg2JTGxq9nrM47d5qHaydmiQ+EyTJ1rdz9x987pinpo/rq"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select unique_id, uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started, date_last_cd4, pregnant, breastfeeding from patient&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select unique_id, uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started,  pregnant, breastfeeding from patient&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -762,8 +757,6 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date_started"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date_last_cd4"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="pregnant"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="breastfeeding"/>
@@ -784,7 +777,6 @@
       <column comment="" key="false" length="75" name="status_at_registration" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="64" name="enrollment_setting" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="date_started" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="date_last_cd4" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="pregnant" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="breastfeeding" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -819,17 +811,22 @@
       <column comment="" key="false" length="75" name="status_at_registration" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="64" name="enrollment_setting" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="date_started" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="13" name="date_last_cd4" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="pregnant" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="1" name="breastfeeding" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="36" name="unique_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="kp_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="tb_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="status_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="enrol_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="refer_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="entry_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="form_data_reject">
       <column comment="" key="false" length="36" name="patient_uuid" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="reason" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="form_data_to_create" activateCondensedTool="true">
         <mapperTableEntries name="encounter_id" expression="row7.id " type="id_Integer"/>
@@ -847,12 +844,17 @@
         <mapperTableEntries name="status_at_registration" expression="row6.status_at_registration " type="id_String" nullable="true"/>
         <mapperTableEntries name="enrollment_setting" expression="row6.enrollment_setting " type="id_String" nullable="true"/>
         <mapperTableEntries name="date_started" expression="row6.date_started " type="id_Date" nullable="true"/>
-        <mapperTableEntries name="date_last_cd4" expression="row6.date_last_cd4 " type="id_Date" nullable="true"/>
         <mapperTableEntries name="pregnant" expression="row6.pregnant " type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="breastfeeding" expression="row6.breastfeeding " type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="unique_id" expression="row6.unique_id " type="id_String" nullable="true"/>
+        <mapperTableEntries name="kp_application_codeset" expression="row2.kp_application_codeset " type="id_String" nullable="true"/>
+        <mapperTableEntries name="tb_application_codeset" expression="row8.tb_application_codeset " type="id_String" nullable="true"/>
+        <mapperTableEntries name="status_application_codeset" expression="row9.status_application_codeset " type="id_String" nullable="true"/>
+        <mapperTableEntries name="enrol_application_codeset" expression="row12.enrol_application_codeset " type="id_String" nullable="true"/>
+        <mapperTableEntries name="refer_application_codeset" expression="row13.refer_application_codeset " type="id_String" nullable="true"/>
+        <mapperTableEntries name="entry_application_codeset" expression="row14.entry_application_codeset " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="form_data_reject" rejectInnerJoin="true">
+      <outputTables sizeState="INTERMEDIATE" name="form_data_reject" minimized="true" rejectInnerJoin="true">
         <mapperTableEntries name="patient_uuid" expression="row6.uuid " type="id_String" nullable="true"/>
         <mapperTableEntries name="reason" expression="&quot;Encounter record has not been created&quot;" type="id_String" nullable="true"/>
       </outputTables>
@@ -870,7 +872,6 @@
         <mapperTableEntries name="status_at_registration" type="id_String" nullable="true"/>
         <mapperTableEntries name="enrollment_setting" type="id_String" nullable="true"/>
         <mapperTableEntries name="date_started" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="date_last_cd4" type="id_Date" nullable="true"/>
         <mapperTableEntries name="pregnant" type="id_Boolean" nullable="true"/>
         <mapperTableEntries name="breastfeeding" type="id_Boolean" nullable="true"/>
       </inputTables>
@@ -880,6 +881,24 @@
         <mapperTableEntries name="id" type="id_Integer"/>
         <mapperTableEntries name="patient_id" type="id_Long"/>
         <mapperTableEntries name="facilityid" type="id_Long"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="kp_application_codeset" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row8" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="tb_application_codeset" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row9" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="status_application_codeset" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row12" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="enrol_application_codeset" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row13" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="refer_application_codeset" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row14" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="entry_application_codeset" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -896,13 +915,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oaBXpO0ycFi+fcIORvOVViSkqK3D3/zeppsx9KgcQa+6OC0kXWJHwubHRyoK7ekCbA8hX9jP"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zdLp5+RwewBs+q+ZHzAX8vKLz5PMx1jEHBd8TZsTz1L6fwyLDyK3W/rTsULsgXQ+tSv/scZY"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select v.date_encounter, p.uuid, v.id, p.id as patient_id, o.id as facilityId&#xD;&#xA;from encounter v&#xD;&#xA;join patient p on v.patient_id = p.id&#xD;&#xA;left join organisation_unit o on o.id = v.organisation_unit_id&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select v.date_encounter, p.uuid, v.id, p.id as patient_id, o.id as facilityId&#xD;&#xA;from encounter v&#xD;&#xA;join patient p on v.patient_id = p.id&#xD;&#xA;left join organisation_unit o on o.id = v.organisation_unit_id&#xD;&#xA;where v.form_code = '0871d0b9-0fb3-4579-bdec-77d684b0cea6'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -971,7 +990,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="1120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="SimpleDateFormat formatter = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xA;String applicationCodeset = context.getProperty(&quot;application_codeset&quot;);&#xA;if(applicationCodeset == &quot;&quot;){&#xA;&#x9;System.out.println(&quot;Load application_codeset into context&quot;);&#xA;}else {&#xA;&#xA;JSONObject applicationCodesetJson = new JSONObject(applicationCodeset);&#xA;JSONObject json = new JSONObject();&#xA;json.put(&quot;unique_id&quot;, input_row.unique_id);&#xA;json.put(&quot;date_hiv_enrollment&quot;, input_row.date_started != null ? formatter.format(input_row.date_started) : &quot;&quot;);&#xA;json.put(&quot;date_confirmed_hiv&quot;, input_row.date_confirmed_hiv != null ? formatter.format(input_row.date_confirmed_hiv) : &quot;&quot;);&#xA;json.put(&quot;ovc_enrolled&quot;, &quot;&quot;);&#xA;json.put(&quot;date_registration&quot;, input_row.date_registration != null ? formatter.format(input_row.date_registration) : &quot;&quot;);&#xA;json.put(&quot;ovc_number&quot;, &quot;&quot;);&#xA;&#xA;if(input_row.pregnant != null){&#xA;&#x9;if(input_row.pregnant == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:73,\&quot;display\&quot;:\&quot;Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;6eeb4f39-444f-4190-9d13-804f589376fc\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:72,\&quot;display\&quot;:\&quot;Not Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;ddc877a0-8403-47f4-9460-ab52f76f5166\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, &quot;&quot;);&#xA;}&#xA;&#xA;if(input_row.breastfeeding != null &amp;&amp; input_row.breastfeeding == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;,new JSONObject(&quot;{\&quot;id\&quot;:75,\&quot;display\&quot;:\&quot;Breastfeeding\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;5240c509-a32e-4343-bc85-247f03671b9b\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;&#xA;if(input_row.entry_point != null &amp;&amp; input_row.entry_point != &quot;&quot; ){&#xA;&#x9;String status = input_row.entry_point;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;STI&quot;) ? &quot;STI Clinic&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Outreaches&quot;) ? &quot;Outreach&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HTS&quot;) ? &quot;HCT&quot; : status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;Transited&quot;) ? &quot;HIV Exposed Status Unknown&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;CBO / LIP&quot;) ? &quot;CBO&quot; : status;&#xA;&#x9;JSONArray entryPoints = applicationCodesetJson.getJSONArray(&quot;pointEntry&quot;);&#xA;&#x9;JSONObject entryPoint = null;&#xA;&#x9;for(int x = 0; x &lt; entryPoints.length(); x++){&#xA;&#x9;&#x9;if(entryPoints.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(input_row.entry_point)){&#xA;&#x9;&#x9;entryPoint = entryPoints.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(entryPoint != null){&#xA;&#x9;&#x9;json.put(&quot;entry_point&quot;, entryPoint);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;Entry Point - &quot;+input_row.entry_point + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.status_at_registration != null &amp;&amp; input_row.status_at_registration != &quot;&quot;){&#xA;&#x9;String status = input_row.status_at_registration;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ART_TRANSFER_IN&quot;) ? &quot;ART Transfer In&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_EXPOSED_STATUS_UNKNOWN&quot;) ? &quot;HIV Exposed Status Unknown&quot; : status;&#xA;&#x9;&#xA;&#x9;JSONArray array = applicationCodesetJson.getJSONArray(&quot;hivStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; array.length(); x++){&#xA;&#x9;&#x9;if(array.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = array.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;status_registration&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot; )+&quot;Status At Registration - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.source_referral != null &amp;&amp; input_row.source_referral != &quot;&quot;){&#xA;&#x9;String status = input_row.source_referral;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;JSONArray array = applicationCodesetJson.getJSONArray(&quot;sourceReferral&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; array.length(); x++){&#xA;&#x9;&#x9;if(array.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = array.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;source_referral&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Source Refferal - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.enrollment_setting != null &amp;&amp; input_row.enrollment_setting != &quot;&quot;){&#xA;&#x9;String status = input_row.enrollment_setting;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;JSONArray array = applicationCodesetJson.getJSONArray(&quot;enrollmentSetting&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; array.length(); x++){&#xA;&#x9;&#x9;if(array.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = array.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;enrollment_setting&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Enrollment Setting - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.tb_status != null &amp;&amp; input_row.tb_status.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.tb_status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;JSONArray array = applicationCodesetJson.getJSONArray(&quot;tbStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; array.length(); x++){&#xA;&#x9;&#x9;if(array.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = array.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;tb_status&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;TB Status - &quot;+status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.target_group != null &amp;&amp; input_row.target_group.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.target_group;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;JSONArray array = applicationCodesetJson.getJSONArray(&quot;kpType&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; array.length(); x++){&#xA;&#x9;&#x9;if(array.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = array.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;target_group&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Target Group - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;output_row.organisation_unit_id = input_row.facilityid;&#xA;output_row.encounter_id = input_row.encounter_id;&#xA;output_row.data = json.toString();&#xA;//output_row.id = input_row.id;&#xA;&#xA;}&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="SimpleDateFormat formatter = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xA;//String applicationCodeset = context.getProperty(&quot;application_codeset&quot;);&#xA;JSONArray status_list = new JSONArray(input_row.status_application_codeset);&#xA;JSONArray entry = new JSONArray(input_row.entry_application_codeset);&#xA;JSONArray tb = new JSONArray(input_row.tb_application_codeset);&#xA;JSONArray kp = new JSONArray(input_row.kp_application_codeset);&#xA;JSONArray enrol = new JSONArray(input_row.enrol_application_codeset);&#xA;JSONArray refer = new JSONArray(input_row.refer_application_codeset);&#xA;&#xA;JSONObject json = new JSONObject();&#xA;json.put(&quot;unique_id&quot;, input_row.unique_id);&#xA;json.put(&quot;date_hiv_enrollment&quot;, input_row.date_started != null ? formatter.format(input_row.date_started) : JSONObject.NULL);&#xA;json.put(&quot;date_confirmed_hiv&quot;, input_row.date_confirmed_hiv != null ? formatter.format(input_row.date_confirmed_hiv) : JSONObject.NULL);&#xA;json.put(&quot;ovc_enrolled&quot;, &quot;&quot;);&#xA;json.put(&quot;date_registration&quot;, input_row.date_registration != null ? formatter.format(input_row.date_registration) : JSONObject.NULL);&#xA;json.put(&quot;ovc_number&quot;, &quot;&quot;);&#xA;&#xA;if(input_row.pregnant != null){&#xA;&#x9;if(input_row.pregnant == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:73,\&quot;display\&quot;:\&quot;Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;6eeb4f39-444f-4190-9d13-804f589376fc\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:72,\&quot;display\&quot;:\&quot;Not Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;ddc877a0-8403-47f4-9460-ab52f76f5166\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, &quot;&quot;);&#xA;}&#xA;&#xA;if(input_row.breastfeeding != null &amp;&amp; input_row.breastfeeding == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;,new JSONObject(&quot;{\&quot;id\&quot;:75,\&quot;display\&quot;:\&quot;Breastfeeding\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;5240c509-a32e-4343-bc85-247f03671b9b\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;&#xA;if(input_row.entry_point != null &amp;&amp; input_row.entry_point != &quot;&quot; ){&#xA;&#x9;String status = input_row.entry_point;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;STI&quot;) ? &quot;STI Clinic&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Outreaches&quot;) ? &quot;Outreach&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HTS&quot;) ? &quot;HCT&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In patients&quot;) ? &quot;In-patient&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;CBO / LIP&quot;) ? &quot;CBO&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ANC/PMTCT&quot;) ? &quot;PMTCT&quot; : status;&#xA;&#x9;//JSONArray entryPoints = applicationCodesetJson.getJSONArray(&quot;pointEntry&quot;);&#xA;&#x9;JSONObject entryPoint = null;&#xA;&#x9;for(int x = 0; x &lt; entry.length(); x++){&#xA;&#x9;&#x9;if(entry.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;entryPoint = entry.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(entryPoint != null){&#xA;&#x9;&#x9;json.put(&quot;entry_point&quot;, entryPoint);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;Entry Point - &quot;+input_row.entry_point + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.status_at_registration != null &amp;&amp; input_row.status_at_registration != &quot;&quot;){&#xA;&#x9;String status = input_row.status_at_registration;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ART_TRANSFER_IN&quot;) ? &quot;ART Transfer In&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_EXPOSED_STATUS_UNKNOWN&quot;) ? &quot;HIV Exposed Status Unknown&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;PRE_ART_TRANSFER_IN&quot;) ? &quot;Pre-ART Transfer In&quot; : status;&#xA;&#x9;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;hivStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; status_list.length(); x++){&#xA;&#x9;&#x9;if(status_list.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = status_list.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;status_registration&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot; )+&quot;Status At Registration - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.source_referral != null &amp;&amp; input_row.source_referral != &quot;&quot;){&#xA;&#x9;String status = input_row.source_referral;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Self-referral&quot;) ? &quot;Self&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In-patients&quot;) ? &quot;Ward&quot; : status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;In-patients&quot;) ? &quot;Ward&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;sourceReferral&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; refer.length(); x++){&#xA;&#x9;&#x9;if(refer.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = refer.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;source_referral&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Source Refferal - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.enrollment_setting != null &amp;&amp; input_row.enrollment_setting != &quot;&quot;){&#xA;&#x9;String status = input_row.enrollment_setting;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;enrollmentSetting&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; enrol.length(); x++){&#xA;&#x9;&#x9;if(enrol.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = enrol.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;enrollment_setting&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Enrollment Setting - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.tb_status != null &amp;&amp; input_row.tb_status.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.tb_status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;tbStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; tb.length(); x++){&#xA;&#x9;&#x9;if(tb.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = tb.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;tb_status&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;TB Status - &quot;+status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.target_group != null &amp;&amp; input_row.target_group.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.target_group;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;kpType&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; kp.length(); x++){&#xA;&#x9;&#x9;if(kp.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = kp.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;target_group&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Target Group - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;output_row.organisation_unit_id = input_row.facilityid;&#xA;output_row.encounter_id = input_row.encounter_id;&#xA;output_row.data = json.toString();&#xA;//output_row.id = input_row.id;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import org.json.JSONObject;&#xA;import org.json.JSONArray;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
@@ -1006,7 +1025,7 @@
       <column comment="" key="false" length="-1" name="data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="to_update">
         <mapperTableEntries name="id" expression="row11.id " type="id_Long"/>
@@ -1044,7 +1063,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ISFUBYir5qWGuhEvxuugKWLLfHsp7qKEs1iMlDnw/kMJiu0srNW4ijIY13cJ/JMJxvyScAYd"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:52ZdF58WCu2sMLo9hRwlD18pBSzdd5mka+37oWdAZJsez6u52ceBlB/6zO/CC5S0kkhtgyEK"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1089,7 +1108,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kR3Bq9yF2qkS5v6pc2Bxr5f9onyPMmpKEMsSWDWvfsOE6g+MfFeOD5UOAgFSvdU5niN21t05"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/MpCNaeq3KOixiTT1xiK0EHc0D3Z545Z+8aeojxSLSxJH7tB2sNd69fMWxTpYGdpVt7cGL2M"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;form_data&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
@@ -1120,7 +1139,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
       <elementValue elementRef="UPDATE_KEY" value="true"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="UPDATABLE" value="false"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="encounter_id"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
@@ -1172,7 +1191,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Mvv1gjQIgpqRF6EG+VosdLbdAXFgfs9wd3jPVa3c0oHoII5AMBXG+d5RUgVHCu8tid3GEeIN"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3xLNJ/0CZbEpwoDF9Eoxu4VwQpqHSbTiX72tr613rGQkVGVqSoyISKNHkgOYs8MVsw+Ydvtg"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;form_data&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1233,6 +1252,240 @@
       <column comment="" key="false" length="-1" name="data" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="1248">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CRBiPw8nKeU9CAnG7AMDmcmWeHIr0wWhXRsZFOM4R2Wp1/ayMfiLALKPNHhXK9N0atNnP1l5"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('KP_TYPE'))) as kp_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="kp_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="2147483647" name="kp_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="1376">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_13" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bhUb+pDMnaWBBlWYcgXMbeAEl0saxqdlUG/nctIgnHcsl0OygNJArcDtXNbYa1DwZDV2pmK8"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('TB_STATUS'))) as tb_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="tb_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_13">
+      <column comment="" key="false" length="2147483647" name="tb_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="1312">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_8" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9bam+k87NHJbwUmY7/yYhgAsfc0HGtH89klFwtucB27dLi8ZYgvLwbOVAWEfOrqgG8fnzPIz"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('HIV_STATUS_ENROL'))) as status_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="status_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_8">
+      <column comment="" key="false" length="2147483647" name="status_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="1344">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_9" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:H4wjjSW3hlarOKyucZe9lI1erlfImLhrw2FLlA9oF1L3aUEN2UEEvHXn1HGYBFnOQZ0fHaqr"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('ENROLLMENT_SETTING'))) as enrol_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="enrol_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_9">
+      <column comment="" key="false" length="2147483647" name="enrol_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="1248">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_11" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Zvm0YnhDqpdrnbSQfcQiTWvV4mrbmkyTKy/Lx/EDSBD31jfuzLbHK3sMIzzt0GS1gV2S1QAe"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('SOURCE_REFERRAL'))) as refer_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="refer_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_11">
+      <column comment="" key="false" length="2147483647" name="refer_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="1344">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_12" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_fCPpEJ7LEeuApdILOMFaMQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="context.LAMISPlus_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.LAMISPlus_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iMvGQfVVLwfQHfhRE53WPXaLArfuu7Nx2busEfV3zHf/hv+mfHl5xcSDh3623SUrLZIgVbyx"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select array_to_json(array(select json_build_object('id', id, 'display',display,'codeset_group',codeset_group,'code',code,'language',language) as json_object &#xD;&#xA; from application_codeset where codeset_group in ('POINT_ENTRY'))) as entry_application_codeset &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.LAMISPlus_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="entry_application_codeset"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_12">
+      <column comment="" key="false" length="2147483647" name="entry_application_codeset" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="1088">
@@ -1560,6 +1813,24 @@
       <elementValue elementRef="TRACE_COLUMN" value="unique_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="refer_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="status_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="entry_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="enrol_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="kp_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="tb_application_codeset"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="form_data_to_create" show="false"/>
@@ -1613,6 +1884,30 @@
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutput_3" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_3" target="tJava_6">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row8" lineStyle="8" metaname="tDBInput_13" offsetLabelX="0" offsetLabelY="0" source="tDBInput_13" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="8" metaname="tDBInput_8" offsetLabelX="0" offsetLabelY="0" source="tDBInput_8" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row12" lineStyle="8" metaname="tDBInput_9" offsetLabelX="0" offsetLabelY="0" source="tDBInput_9" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row13" lineStyle="8" metaname="tDBInput_11" offsetLabelX="0" offsetLabelY="0" source="tDBInput_11" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row14" lineStyle="8" metaname="tDBInput_12" offsetLabelX="0" offsetLabelY="0" source="tDBInput_12" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row14" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tLibraryLoad_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>

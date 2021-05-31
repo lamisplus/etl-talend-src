@@ -16,6 +16,13 @@
     <module>jobs/process/patient/patient_migration_0.1</module>
     <module>jobs/process/pharmacy/pharmacy_migration_0.1</module>
     <module>jobs/process/hiv_services/hiv_enrollment_migration_0.1</module>
+    <module>jobs/process/hiv_services/clinic_followup_migration_0.1</module>
+    <module>jobs/process/hiv_services/eac_migration_0.1</module>
+    <module>jobs/process/hiv_services/dmoc_migration_0.1</module>
+    <module>jobs/process/hiv_services/client_status_migration_0.1</module>
+    <module>jobs/process/hts_services/hts_migration_0.1</module>
+    <module>jobs/process/pharmacy/copy_of_pharmacy_migration_0.1</module>
+    <module>jobs/process/pharmacy/pharmacy_0.1</module>
   </modules>
   <properties>
     <talend.project.name>LAMIS3_ETL</talend.project.name>
