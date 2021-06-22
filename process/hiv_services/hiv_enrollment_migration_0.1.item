@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="LAMIS3_Password" prompt="LAMIS3_Password?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_Password" value="enc:system.encryption.key.v1:kT5SpkUY+9reF649dD+LNz6Y+PfUBCWz6iBsz11g6egYdlTT"/>
+    <contextParameter comment="" name="LAMIS3_Password" prompt="LAMIS3_Password?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_Password" value="enc:system.encryption.key.v1:DItit5qEcx1ATN5RSBPOkWSk9RDaJFCV4RYwv5UdLkYLR/34"/>
     <contextParameter comment="" name="LAMIS3_Server" prompt="LAMIS3_Server?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMIS3_Login" prompt="LAMIS3_Login?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="postgres"/>
     <contextParameter comment="" name="LAMIS3_Port" prompt="LAMIS3_Port?" promptNeeded="false" repositoryContextId="_1Z3nsJ3hEeux3qkDOAEmpQ" type="id_String" value="5432"/>
@@ -12,7 +12,7 @@
     <contextParameter comment="" name="LAMISPlus_Schema" prompt="LAMISPlus_Schema?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_AdditionalParams" prompt="LAMISPlus_AdditionalParams?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value=""/>
     <contextParameter comment="" name="LAMISPlus_Login" prompt="LAMISPlus_Login?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="postgres"/>
-    <contextParameter comment="" name="LAMISPlus_Password" prompt="LAMISPlus_Password?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_Password" value="enc:system.encryption.key.v1:GyevGkiSxzr1Qb61fYr8tEtGbipBf6QXc+3USzQJ4lXTqSiz"/>
+    <contextParameter comment="" name="LAMISPlus_Password" prompt="LAMISPlus_Password?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_Password" value="enc:system.encryption.key.v1:CsbXqRz7T8sfc5wLQF4/8XSSbIvWeaxvcHFot/OQP5qfArJ2"/>
     <contextParameter comment="" name="LAMISPlus_Database" prompt="LAMISPlus_Database?" promptNeeded="true" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="lamisplus_etl4"/>
     <contextParameter comment="" name="LAMISPlus_Port" prompt="LAMISPlus_Port?" promptNeeded="false" repositoryContextId="_r5GmwJ7LEeuApdILOMFaMQ" type="id_String" value="5432"/>
     <contextParameter comment="" name="application_codeset_not_present" prompt="application_codeset_not_present?" promptNeeded="false" type="id_List Of Value" value=""/>
@@ -58,7 +58,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:KWRFCvR5sFVRa0N74NsggoOe1LypUCMOpqHrXzTl" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:76gOFSociTNpXH2PGcejTATeLZQ2LFpmLJcF2Pho" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -93,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FlkjXSbtHNfhoRjY3hb7+4Em45r5NaskWby9vGdg" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1IoMLAE4auDu7ujaHT39cMaG3STyiKIna7BPGFjI" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -142,13 +142,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rIad9R3NnO2FllW1MCtKKhdD1yKTFTqHqnDzxrAQ3hAcwKT9JSRHCL5VEMqsTbG4ztNk"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kmqkagdy0tDgioTDjSj7S5rOUlOrZU9CA9t9sOYAX7d8CgIRbVxruadBdsC17u5Vdypc"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started, pregnant, breastfeeding from patient&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started, pregnant, breastfeeding from patient&#xD;&#xA;--where facility_id = 2304&#xD;&#xA;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -220,7 +220,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SvNHekJhsS9BVamXqgiVLeX0419q7dQMlMgQ5Vm45pv/fL34v7cAPYQeNoOP5cW3N7ylUQkE"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sOLbhKvxDORntI3kYUj4fb3+AeVkpSzfjfCen9ADBPdmVmQyOlVdsDrk8neHNSnAbUkxvkTJ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;person&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -284,7 +284,7 @@
       <column comment="" defaultValue="" key="false" length="19" name="id" nullable="false" pattern="" precision="0" sourceType="BIGSERIAL" type="id_Long" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="visit_create">
         <mapperTableEntries name="date_visit_start" expression="row1.date_registration" type="id_Date" nullable="true"/>
@@ -335,7 +335,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IJ5seFK7SepnT6XIfMb/LqyRPCb49YhSkEg79pSJX6mDAtU1NdNXpadPLwQNe+wHC4hhDrLq"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:anyrWqDw/PgGPOp+pf4n+c6uMCjTROOCGowtnS1UU21y3yqSKRD9wB3oxkQmLGWhU4ZNfSUs"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;visit&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -444,13 +444,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wujDLgvkaJrrQiKcg5QJJq0QN0nLTUVKiNxEDk32g6SobfGmAAre2A6gn0hnUTQwF/ZW"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6gY5chvJU36sNjB9ke1SMWxh/t3iZ2ETnRRywQ6Fel3SsM1cJoEv4Q0gaXIsvNr/tcW5"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, date_registration from patient&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select uuid, date_registration from patient &#xD;&#xA;--where facility_id = 2304&#xD;&#xA;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -538,7 +538,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z4mAyAS46MhiHzBzHfPSMqxaT6Me1P8PhkWDTtC4lkbs3nqUQOOo3UvsZox+fKWQf8xPNS1H"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ueiqX6bFSicxWEdpCtuAWasO7c+wr4qA/4lSies0aj1PM5d6YcuXeNi1XAA037D3CpEcgyQX"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -595,7 +595,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wuVHWp0DD6QnvqoJUGD7V3Mi5XpyR9ramoGJVLM03C/auId4hQjKmPqJd+6WECxjVo68yDCQ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kLC47vZ1uDZZZalCnMVXmQdwwhe6K+NhCqm1HfSki5+wsb5zM4dEafMDZv6E8s/JQRaYHtH9"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;encounter&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -713,13 +713,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMIS3_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMIS3_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMIS3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u3YH5M5g55Am9vcGpMK6JHvg2JTGxq9nrM47d5qHaydmiQ+EyTJ1rdz9x987pinpo/rq"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oSV7CVPlCAeYlINa00QoTI9/L9YUuz7pFsfGc93x8vWMEmGueX2T2xC0YL9Zz6pxzWDd"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select unique_id, uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started,  pregnant, breastfeeding from patient&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select unique_id, uuid, entry_point, target_group, date_confirmed_hiv, date_enrolled_pmtct, source_referral, time_hiv_diagnosis, tb_status, date_registration, status_at_registration, enrollment_setting, date_started,  pregnant, breastfeeding from patient&#xD;&#xA;--where facility_id = 2304&#xD;&#xA;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -915,7 +915,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zdLp5+RwewBs+q+ZHzAX8vKLz5PMx1jEHBd8TZsTz1L6fwyLDyK3W/rTsULsgXQ+tSv/scZY"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JTL3q7oTmV5ymKleGc0YRUG7Z0ez0acQNF+fwmZidaoCwDas3NqHyVnAFnxr1CzcwA3xSia1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -990,7 +990,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="1120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="SimpleDateFormat formatter = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xA;//String applicationCodeset = context.getProperty(&quot;application_codeset&quot;);&#xA;JSONArray status_list = new JSONArray(input_row.status_application_codeset);&#xA;JSONArray entry = new JSONArray(input_row.entry_application_codeset);&#xA;JSONArray tb = new JSONArray(input_row.tb_application_codeset);&#xA;JSONArray kp = new JSONArray(input_row.kp_application_codeset);&#xA;JSONArray enrol = new JSONArray(input_row.enrol_application_codeset);&#xA;JSONArray refer = new JSONArray(input_row.refer_application_codeset);&#xA;&#xA;JSONObject json = new JSONObject();&#xA;json.put(&quot;unique_id&quot;, input_row.unique_id);&#xA;json.put(&quot;date_hiv_enrollment&quot;, input_row.date_started != null ? formatter.format(input_row.date_started) : JSONObject.NULL);&#xA;json.put(&quot;date_confirmed_hiv&quot;, input_row.date_confirmed_hiv != null ? formatter.format(input_row.date_confirmed_hiv) : JSONObject.NULL);&#xA;json.put(&quot;ovc_enrolled&quot;, &quot;&quot;);&#xA;json.put(&quot;date_registration&quot;, input_row.date_registration != null ? formatter.format(input_row.date_registration) : JSONObject.NULL);&#xA;json.put(&quot;ovc_number&quot;, &quot;&quot;);&#xA;&#xA;if(input_row.pregnant != null){&#xA;&#x9;if(input_row.pregnant == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:73,\&quot;display\&quot;:\&quot;Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;6eeb4f39-444f-4190-9d13-804f589376fc\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:72,\&quot;display\&quot;:\&quot;Not Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;ddc877a0-8403-47f4-9460-ab52f76f5166\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, &quot;&quot;);&#xA;}&#xA;&#xA;if(input_row.breastfeeding != null &amp;&amp; input_row.breastfeeding == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;,new JSONObject(&quot;{\&quot;id\&quot;:75,\&quot;display\&quot;:\&quot;Breastfeeding\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;5240c509-a32e-4343-bc85-247f03671b9b\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;&#xA;if(input_row.entry_point != null &amp;&amp; input_row.entry_point != &quot;&quot; ){&#xA;&#x9;String status = input_row.entry_point;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;STI&quot;) ? &quot;STI Clinic&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Outreaches&quot;) ? &quot;Outreach&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HTS&quot;) ? &quot;HCT&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In patients&quot;) ? &quot;In-patient&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;CBO / LIP&quot;) ? &quot;CBO&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ANC/PMTCT&quot;) ? &quot;PMTCT&quot; : status;&#xA;&#x9;//JSONArray entryPoints = applicationCodesetJson.getJSONArray(&quot;pointEntry&quot;);&#xA;&#x9;JSONObject entryPoint = null;&#xA;&#x9;for(int x = 0; x &lt; entry.length(); x++){&#xA;&#x9;&#x9;if(entry.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;entryPoint = entry.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(entryPoint != null){&#xA;&#x9;&#x9;json.put(&quot;entry_point&quot;, entryPoint);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;Entry Point - &quot;+input_row.entry_point + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.status_at_registration != null &amp;&amp; input_row.status_at_registration != &quot;&quot;){&#xA;&#x9;String status = input_row.status_at_registration;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ART_TRANSFER_IN&quot;) ? &quot;ART Transfer In&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_EXPOSED_STATUS_UNKNOWN&quot;) ? &quot;HIV Exposed Status Unknown&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;PRE_ART_TRANSFER_IN&quot;) ? &quot;Pre-ART Transfer In&quot; : status;&#xA;&#x9;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;hivStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; status_list.length(); x++){&#xA;&#x9;&#x9;if(status_list.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = status_list.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;status_registration&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot; )+&quot;Status At Registration - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.source_referral != null &amp;&amp; input_row.source_referral != &quot;&quot;){&#xA;&#x9;String status = input_row.source_referral;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Self-referral&quot;) ? &quot;Self&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In-patients&quot;) ? &quot;Ward&quot; : status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;In-patients&quot;) ? &quot;Ward&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;sourceReferral&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; refer.length(); x++){&#xA;&#x9;&#x9;if(refer.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = refer.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;source_referral&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Source Refferal - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.enrollment_setting != null &amp;&amp; input_row.enrollment_setting != &quot;&quot;){&#xA;&#x9;String status = input_row.enrollment_setting;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;enrollmentSetting&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; enrol.length(); x++){&#xA;&#x9;&#x9;if(enrol.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = enrol.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;enrollment_setting&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Enrollment Setting - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.tb_status != null &amp;&amp; input_row.tb_status.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.tb_status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;tbStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; tb.length(); x++){&#xA;&#x9;&#x9;if(tb.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = tb.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;tb_status&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;TB Status - &quot;+status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.target_group != null &amp;&amp; input_row.target_group.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.target_group;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;kpType&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; kp.length(); x++){&#xA;&#x9;&#x9;if(kp.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = kp.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;target_group&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Target Group - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;output_row.organisation_unit_id = input_row.facilityid;&#xA;output_row.encounter_id = input_row.encounter_id;&#xA;output_row.data = json.toString();&#xA;//output_row.id = input_row.id;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="SimpleDateFormat formatter = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xA;//String applicationCodeset = context.getProperty(&quot;application_codeset&quot;);&#xA;JSONArray status_list = new JSONArray(input_row.status_application_codeset);&#xA;JSONArray entry = new JSONArray(input_row.entry_application_codeset);&#xA;JSONArray tb = new JSONArray(input_row.tb_application_codeset);&#xA;JSONArray kp = new JSONArray(input_row.kp_application_codeset);&#xA;JSONArray enrol = new JSONArray(input_row.enrol_application_codeset);&#xA;JSONArray refer = new JSONArray(input_row.refer_application_codeset);&#xA;&#xA;JSONObject json = new JSONObject();&#xA;json.put(&quot;unique_id&quot;, input_row.unique_id);&#xA;json.put(&quot;date_hiv_enrollment&quot;, input_row.date_started != null ? formatter.format(input_row.date_started) : JSONObject.NULL);&#xA;json.put(&quot;date_confirmed_hiv&quot;, input_row.date_confirmed_hiv != null ? formatter.format(input_row.date_confirmed_hiv) : JSONObject.NULL);&#xA;json.put(&quot;ovc_enrolled&quot;, &quot;&quot;);&#xA;json.put(&quot;date_registration&quot;, input_row.date_registration != null ? formatter.format(input_row.date_registration) : JSONObject.NULL);&#xA;json.put(&quot;ovc_number&quot;, &quot;&quot;);&#xA;&#xA;if(input_row.pregnant != null){&#xA;&#x9;if(input_row.pregnant == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:73,\&quot;display\&quot;:\&quot;Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;6eeb4f39-444f-4190-9d13-804f589376fc\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, new JSONObject(&quot;{\&quot;id\&quot;:72,\&quot;display\&quot;:\&quot;Not Pregnant\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;ddc877a0-8403-47f4-9460-ab52f76f5166\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;}else{&#xA;&#x9;json.put(&quot;pregnancy_status&quot;, &quot;&quot;);&#xA;}&#xA;&#xA;if(input_row.breastfeeding != null &amp;&amp; input_row.breastfeeding == true){&#xA;&#x9;json.put(&quot;pregnancy_status&quot;,new JSONObject(&quot;{\&quot;id\&quot;:75,\&quot;display\&quot;:\&quot;Breastfeeding\&quot;,\&quot;codeset_group\&quot;:\&quot;PREGANACY_STATUS\&quot;,\&quot;code\&quot;:\&quot;5240c509-a32e-4343-bc85-247f03671b9b\&quot;,\&quot;language\&quot;:\&quot;en\&quot;}&quot;));&#xA;&#x9;}&#xA;&#xA;if(input_row.entry_point != null &amp;&amp; input_row.entry_point != &quot;&quot; ){&#xA;&#x9;String status = input_row.entry_point;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;STI&quot;) ? &quot;STI Clinic&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Outreaches&quot;) ? &quot;Outreach&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HTS&quot;) ? &quot;HCT&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In patients&quot;) ? &quot;In-patient&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;CBO / LIP&quot;) ? &quot;CBO&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ANC/PMTCT&quot;) ? &quot;PMTCT&quot; : status;&#xA;&#x9;//JSONArray entryPoints = applicationCodesetJson.getJSONArray(&quot;pointEntry&quot;);&#xA;&#x9;JSONObject entryPoint = null;&#xA;&#x9;for(int x = 0; x &lt; entry.length(); x++){&#xA;&#x9;&#x9;if(entry.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;entryPoint = entry.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(entryPoint != null){&#xA;&#x9;&#x9;json.put(&quot;entry_point&quot;, entryPoint);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;Entry Point - &quot;+input_row.entry_point + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.status_at_registration != null &amp;&amp; input_row.status_at_registration != &quot;&quot;){&#xA;&#x9;String status = input_row.status_at_registration;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;ART_TRANSFER_IN&quot;) ? &quot;ART Transfer In&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;HIV_EXPOSED_STATUS_UNKNOWN&quot;) ? &quot;HIV Exposed Status Unknown&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;PRE_ART_TRANSFER_IN&quot;) ? &quot;Pre-ART Transfer In&quot; : status;&#xA;&#x9;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;hivStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; status_list.length(); x++){&#xA;&#x9;&#x9;if(status_list.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = status_list.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;status_registration&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot; )+&quot;Status At Registration - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.source_referral != null &amp;&amp; input_row.source_referral != &quot;&quot;){&#xA;&#x9;String status = input_row.source_referral;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Self-referral&quot;) ? &quot;Self&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;In-patients&quot;) ? &quot;Ward&quot; : status;&#xA;&#x9;status = status.equalsIgnoreCase(&quot;Medical outpatient&quot;) ? &quot;OPD&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;sourceReferral&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; refer.length(); x++){&#xA;&#x9;&#x9;if(refer.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = refer.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;source_referral&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Source Refferal - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;if(input_row.enrollment_setting != null &amp;&amp; input_row.enrollment_setting != &quot;&quot;){&#xA;&#x9;String status = input_row.enrollment_setting;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;enrollmentSetting&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; enrol.length(); x++){&#xA;&#x9;&#x9;if(enrol.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = enrol.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;enrollment_setting&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Enrollment Setting - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.tb_status != null &amp;&amp; input_row.tb_status.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.tb_status;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;tbStatus&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; tb.length(); x++){&#xA;&#x9;&#x9;if(tb.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = tb.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;tb_status&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) + &quot;TB Status - &quot;+status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;if(input_row.target_group != null &amp;&amp; input_row.target_group.trim() != &quot;&quot;){&#xA;&#x9;String status = input_row.target_group;&#xA;&#x9;//status = status.equalsIgnoreCase(&quot;HIV_PLUS_NON_ART&quot;) ? &quot;HIV+ non ART&quot; : status;&#xA;&#x9;//JSONArray array = applicationCodesetJson.getJSONArray(&quot;kpType&quot;);&#xA;&#x9;JSONObject item = null;&#xA;&#x9;for(int x = 0; x &lt; kp.length(); x++){&#xA;&#x9;&#x9;if(kp.getJSONObject(x).getString(&quot;display&quot;).equalsIgnoreCase(status)){&#xA;&#x9;&#x9;item = kp.getJSONObject(x);&#xA;&#x9;&#x9;break;&#xA;&#x9;&#x9;}&#xA;&#x9;} &#xA;&#x9;&#xA;&#x9;if(item != null){&#xA;&#x9;&#x9;json.put(&quot;target_group&quot;, item);&#xA;&#x9;}else {&#xA;&#x9;&#x9;context.application_codeset_not_present = context.application_codeset_not_present + (context.application_codeset_not_present != null &amp;&amp; context.application_codeset_not_present != &quot;&quot; ? &quot;,'&quot; : &quot;'&quot;) +&quot;Target Group - &quot;+ status + &quot;'&quot;;&#xA;&#x9;}&#xA;&#xA;}&#xA;&#xA;&#xA;output_row.organisation_unit_id = input_row.facilityid;&#xA;output_row.encounter_id = input_row.encounter_id;&#xA;output_row.data = json.toString();&#xA;//output_row.id = input_row.id;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import org.json.JSONObject;&#xA;import org.json.JSONArray;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
@@ -1063,7 +1063,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:52ZdF58WCu2sMLo9hRwlD18pBSzdd5mka+37oWdAZJsez6u52ceBlB/6zO/CC5S0kkhtgyEK"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iI5EcAmoD4MjgMvbwpg8JLohhBXjTU58fndqLweh+hZivP+wnd0p/FpiIuNOzoO4hQ1QTFmO"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1108,7 +1108,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/MpCNaeq3KOixiTT1xiK0EHc0D3Z545Z+8aeojxSLSxJH7tB2sNd69fMWxTpYGdpVt7cGL2M"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qzqxbKgho3gJXYABkBu7uBW1DpONjD2TLlhsd5xniGhU1NK/QuZzF3Fu10ij6t8ytvYcApat"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;form_data&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
@@ -1191,7 +1191,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3xLNJ/0CZbEpwoDF9Eoxu4VwQpqHSbTiX72tr613rGQkVGVqSoyISKNHkgOYs8MVsw+Ydvtg"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fj1lHSXT0hfsZM24YnzlwJLIabvcmCnxBV7uvmPOP6Yl6aLkQjHqWilVB22CZkdi5iqW3jIb"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;form_data&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1267,7 +1267,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CRBiPw8nKeU9CAnG7AMDmcmWeHIr0wWhXRsZFOM4R2Wp1/ayMfiLALKPNHhXK9N0atNnP1l5"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1qBXObLC9vVD0M2zqhHYXXHT9VIDHeAQFRSy2OiuYWTjvye3i+eHF9hkvy8AId05qujqKL7R"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1306,7 +1306,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bhUb+pDMnaWBBlWYcgXMbeAEl0saxqdlUG/nctIgnHcsl0OygNJArcDtXNbYa1DwZDV2pmK8"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lfT0xZiwHbblsoKHu0dowxNaNZY9jF6En8yQqe2jndWRpksGIp4uCQCOGF9NV2fMdSCdx08K"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1345,7 +1345,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9bam+k87NHJbwUmY7/yYhgAsfc0HGtH89klFwtucB27dLi8ZYgvLwbOVAWEfOrqgG8fnzPIz"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KOjd5r4R2+Dlt2w3wV2aXr7ifF1dqIJtZckUTVwpbzzp/q4SQPrm0M8mUNS4m/YPOZdSFeXP"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1384,7 +1384,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:H4wjjSW3hlarOKyucZe9lI1erlfImLhrw2FLlA9oF1L3aUEN2UEEvHXn1HGYBFnOQZ0fHaqr"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PhA146ozWUporapDdkFAUHP09V/cv+LQv2385qZfTp2w/VZInW2FzWu/6WCDctA3yoic93g3"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1423,7 +1423,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Zvm0YnhDqpdrnbSQfcQiTWvV4mrbmkyTKy/Lx/EDSBD31jfuzLbHK3sMIzzt0GS1gV2S1QAe"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:myUAuwy5pcD9TaJHKfdlzdbfK9kzDVcd0dk2S5/ODAynyWk20G2yrXv616nq9Gazodsp933V"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -1462,7 +1462,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LAMISPlus_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LAMISPlus_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.LAMISPlus_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iMvGQfVVLwfQHfhRE53WPXaLArfuu7Nx2busEfV3zHf/hv+mfHl5xcSDh3623SUrLZIgVbyx"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ep/ZKfmwqlxxtbpVE7r0sswN39BeyDoODo3NtqC9cvGGUH5UaZjoKyBcB2UAd3tjb2lkrlHF"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

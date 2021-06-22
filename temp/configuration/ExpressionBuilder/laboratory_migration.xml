@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_3=>" expression="row6.test_name.replace(&quot;K+&quot;, &quot;POTASSIUM  K+&quot;)&#xA;.replace(&quot;TRIGLYCERIDE&quot;, &quot;TRIGLYCERIDES&quot;)&#xA;.replace(&quot;CL-&quot;, &quot;CHLORIDE CL-&quot;)">
+  <variables name="row6.id" value="0" talendType="id_Long"/>
+  <variables name="row6.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row6.facility_id" value="0" talendType="id_Long"/>
+  <variables name="row6.date_sample_collected" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.date_result_received" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.labno" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.uuid" value="null" talendType="id_String"/>
+  <variables name="row6.date_assay" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.lines" value="null" talendType="id_String"/>
+  <variables name="row6.result" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.comment" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.indication" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.lab_test_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.sample_date" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.test_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.patient_uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.facilityname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.createdby" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.date_encounter" value="null" talendType="id_Date"/>
+  <variables name="row7.uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.id" value="0" talendType="id_Integer"/>
+  <variables name="row7.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row7.facilityid" value="0" talendType="id_Long"/>
+  <variables name="row8.unit_measurement" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row8.test_name" value="null" talendType="id_String"/>
+  <variables name="row8.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row8.id" value="0" talendType="id_Long"/>
+  <variables name="row8.lab_group_id" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row8.lab_group_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.vl_indication" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
