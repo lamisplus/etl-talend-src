@@ -1,26 +1,40 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_5=>" expression="row12.composition.replace(&quot;Lamivudine+Nevirapine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Zidovudine+Lamivudine+Nevarapin&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Emtricitabine+Tenofovir&quot;, &quot;Tenofovir+Emtricitabine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Emtricitabine+Lopinavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Nevirapine&quot;, &quot;Tenofovir+Emtricitabine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Stavudine&quot;, &quot;Stavudine+Lamivudine+Efavirenz&quot;)">
-  <variables name="row12.id" value="0" talendType="id_Long"/>
-  <variables name="row12.patient_id" value="0" talendType="id_Long"/>
-  <variables name="row12.facilityid" value="0" talendType="id_Long"/>
-  <variables name="row12.drug_name" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.description" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.composition" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.date_dispensed" value="null" talendType="id_Date" nullable="true"/>
-  <variables name="row12.start_date" value="null" talendType="id_Date" nullable="true"/>
-  <variables name="row12.encounter_id" value="0" talendType="id_Integer"/>
-  <variables name="row12.adr" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.adr_screened" value="null" talendType="id_Boolean" nullable="true"/>
-  <variables name="row12.adherence" value="null" talendType="id_Boolean" nullable="true"/>
-  <variables name="row12.prescription_error" value="null" talendType="id_Boolean" nullable="true"/>
-  <variables name="row12.morning" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.duration" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.afternoon" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.lamis3_regimen_id" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row12.strength" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row13.id" value="0" talendType="id_Long"/>
-  <variables name="row13.regimenname" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row13.composition" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row13.regimen_line_id" value="null" talendType="id_Long" nullable="true"/>
-  <variables name="row13.to_json" value="null" talendType="id_String" nullable="true"/>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_3=>" expression="row6.composition == null ? null : row6.composition.replace(&quot;Lamivudine+Nevirapine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Zidovudine+Lamivudine+Nevarapin&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Emtricitabine+Tenofovir&quot;, &quot;Tenofovir+Emtricitabine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Emtricitabine+Lopinavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Emtricitabine+Tenofovir+Nevirapine&quot;, &quot;Tenofovir+Emtricitabine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Stavudine&quot;, &quot;Stavudine+Lamivudine+Efavirenz&quot;) &#xD;&#xA;.replace(&quot;Efavirenz+Lamivudine+Tenofovir&quot;, &quot;Tenofovir+Lamivudine+Efavirenz&quot;) &#xD;&#xA;.replace(&quot;Lamivudine+Nevirapine+Tenofovir&quot;, &quot;Tenofovir+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Abacavir+Efavirenz+Lamivudine&quot;,&quot;Abacavir+Lamivudine+Efavirenz&quot;)&#xD;&#xA;.replace(&quot;Lamivudine+Nevirapine+Stavudine&quot;,&quot;Stavudine+Lamivudine+Nevirapine&quot;)&#xD;&#xA;.replace(&quot;Atazanavir/Ritonavir+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Atazanavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Lamivudine+Tenofovir+Zidovudine&quot;, &quot;Tenofovir+Lamivudine+Zidovudine&quot;) &#xD;&#xA;.replace(&quot;Lamivudine+Lopinavir/Ritonavir+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Lopinavir/Ritonavir&quot;)&#xD;&#xA;.replace(&quot;Lamivudine+Tenofovir+Atazanavir/Ritonavir&quot;, &quot;Tenofovir+Lamivudine+Atazanavir/Ritonavir&quot;)&#xD;&#xA;.replace(&quot;Lamivudine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Lamivudine+Lopinavir/Ritonavir&quot;) &#xD;&#xA;.replace(&quot;Lamivudine+Lopinavir/Ritonavir+Stavudine&quot;, &quot;Stavudine+Lamivudine+Lopinavir/Ritonavir&quot;)&#xD;&#xA;.replace(&quot;Lamivudine+Lopinavir/Ritonavir+Tenofovir&quot;, &quot;Tenofovir+Lamivudine+Lopinavir/Ritonavir&quot;) &#xA;.replace(&quot;Lamivudine+Nevirapine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xA;.replace(&quot;Zidovudine+Lamivudine+Nevarapin&quot;, &quot;Zidovudine+Lamivudine+Nevirapine&quot;)&#xA;.replace(&quot;Efavirenz+Emtricitabine+Tenofovir&quot;, &quot;Tenofovir+Emtricitabine+Efavirenz&quot;)&#xA;.replace(&quot;Efavirenz+Lamivudine+Zidovudine&quot;, &quot;Zidovudine+Lamivudine+Efavirenz&quot;)&#xA;.replace(&quot;Emtricitabine+Tenofovir+Lopinavir/Ritonavir&quot;, &quot;Tenofovir+Emtricitabine+Lopinavir/Ritonavir&quot;) &#xA;.replace(&quot;Emtricitabine+Tenofovir+Nevirapine&quot;, &quot;Tenofovir+Emtricitabine+Nevirapine&quot;)&#xA;.replace(&quot;Efavirenz+Lamivudine+Stavudine&quot;, &quot;Stavudine+Lamivudine+Efavirenz&quot;)">
+  <variables name="row6.id" value="0" talendType="id_Long"/>
+  <variables name="row6.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row6.facility_id" value="0" talendType="id_Long"/>
+  <variables name="row6.date_visit" value="null" talendType="id_Date"/>
+  <variables name="row6.next_appointment" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row6.archived" value="false" talendType="id_Boolean"/>
+  <variables name="row6.uuid" value="null" talendType="id_String"/>
+  <variables name="row6.adr_screened" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.adherence" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.prescription_error" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row6.adverse_drug_reactions" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.morning" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.afternoon" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.duration" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.regimen_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.regimen_drug_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.regimen_type_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.patient_uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.description" value="null" talendType="id_String"/>
+  <variables name="row6.composition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.name" value="null" talendType="id_String"/>
+  <variables name="row6.strength" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.facilityname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.createdby" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.date_encounter" value="null" talendType="id_Date"/>
+  <variables name="row7.uuid" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.id" value="0" talendType="id_Integer"/>
+  <variables name="row7.patient_id" value="0" talendType="id_Long"/>
+  <variables name="row7.facilityid" value="0" talendType="id_Long"/>
+  <variables name="row8.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row8.id" value="0" talendType="id_Long"/>
+  <variables name="row8.drug_json" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.id" value="0" talendType="id_Long"/>
+  <variables name="row9.regimenname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.composition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.regimen_line_id" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row9.to_json" value="null" talendType="id_String" nullable="true"/>
 </expression:EMFExpression>
